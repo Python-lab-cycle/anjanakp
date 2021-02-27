@@ -1,6 +1,5 @@
 word=input("Enter a sentence:")
-for count in word:
-    if count in 'aeiou':
-     print(count,end="")
+vowels=[i for I in word if I in 'aeiou']
+Print(vowels)
 
           
