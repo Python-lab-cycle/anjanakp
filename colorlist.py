@@ -1,5 +1,5 @@
-color=input("Enter the name of colours(space between colours is needed):")
-color_list=color.split(" ")
-print(color_list)
-print("First colour in the list is",color_list[0])
-print("Last colour in the list is :",color_list[-1])
+color=input("Enter the name of colours:");
+lis=color.split(",")
+print (lis);
+print("First colour in the list is:",lis[0]);
+print("Last colour in the list is :",lis[-1]);
